@@ -12,17 +12,17 @@ import * as $$$$$$$$$$$1 from "./apps/site.ts";
 
 const manifest = {
   "sections": {
-    "deco-sites/start/sections/Footer.tsx": $$$$$$2,
-    "deco-sites/start/sections/Hero.tsx": $$$$$$0,
-    "deco-sites/start/sections/ParagraphList.tsx": $$$$$$4,
-    "deco-sites/start/sections/SimpleTextList.tsx": $$$$$$3,
-    "deco-sites/start/sections/Theme.tsx": $$$$$$1,
+    "deco-sites/retale/sections/Footer.tsx": $$$$$$2,
+    "deco-sites/retale/sections/Hero.tsx": $$$$$$0,
+    "deco-sites/retale/sections/ParagraphList.tsx": $$$$$$4,
+    "deco-sites/retale/sections/SimpleTextList.tsx": $$$$$$3,
+    "deco-sites/retale/sections/Theme.tsx": $$$$$$1,
   },
   "apps": {
-    "deco-sites/start/apps/decohub.ts": $$$$$$$$$$$0,
-    "deco-sites/start/apps/site.ts": $$$$$$$$$$$1,
+    "deco-sites/retale/apps/decohub.ts": $$$$$$$$$$$0,
+    "deco-sites/retale/apps/site.ts": $$$$$$$$$$$1,
   },
-  "name": "deco-sites/start",
+  "name": "deco-sites/retale",
   "baseUrl": import.meta.url,
 };
 
