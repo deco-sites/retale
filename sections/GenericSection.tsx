@@ -1,5 +1,5 @@
 import { SectionContent } from "../utils/types.ts";
-
+import CompileCSS from "../islands/CompileCSS.tsx";
 export interface SectionProps {
   sectionContents: SectionContent[];
   index: number;
@@ -19,6 +19,7 @@ export const loader = (props: Props, req: Request): SectionProps => {
 export default function GenericSection(props: SectionProps) {
   return (
     <>
+    <CompileCSS />
       {props.sectionContents.length > 0 ? (<div
         dangerouslySetInnerHTML={{
           __html: props.sectionContents[props.index].html,
