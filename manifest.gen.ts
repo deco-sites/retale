@@ -2,9 +2,8 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$0 from "./loaders/openai.ts";
-import * as $$$1 from "./loaders/List/Sections.tsx";
-import * as $$$2 from "./loaders/Layouts/ProductCard.tsx";
+import * as $$$0 from "./loaders/List/Sections.tsx";
+import * as $$$1 from "./loaders/Layouts/ProductCard.tsx";
 import * as $$$$$$0 from "./sections/Gallery.tsx";
 import * as $$$$$$1 from "./sections/Newsletter/Newsletter.tsx";
 import * as $$$$$$2 from "./sections/Social/InstagramPosts.tsx";
@@ -48,15 +47,13 @@ import * as $$$$$$39 from "./sections/Category/CategoryList.tsx";
 import * as $$$$$$40 from "./sections/Category/CategoryBanner.tsx";
 import * as $$$$$$41 from "./sections/Hero.tsx";
 import * as $$$$$$42 from "./sections/Header/Header.tsx";
-import * as $$$$$$$$$0 from "./actions/openai.ts";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 
 const manifest = {
   "loaders": {
-    "deco-sites/retale/loaders/Layouts/ProductCard.tsx": $$$2,
-    "deco-sites/retale/loaders/List/Sections.tsx": $$$1,
-    "deco-sites/retale/loaders/openai.ts": $$$0,
+    "deco-sites/retale/loaders/Layouts/ProductCard.tsx": $$$1,
+    "deco-sites/retale/loaders/List/Sections.tsx": $$$0,
   },
   "sections": {
     "deco-sites/retale/sections/Category/CategoryBanner.tsx": $$$$$$40,
@@ -102,9 +99,6 @@ const manifest = {
     "deco-sites/retale/sections/Social/InstagramPosts.tsx": $$$$$$2,
     "deco-sites/retale/sections/Social/WhatsApp.tsx": $$$$$$3,
     "deco-sites/retale/sections/Theme/Theme.tsx": $$$$$$21,
-  },
-  "actions": {
-    "deco-sites/retale/actions/openai.ts": $$$$$$$$$0,
   },
   "apps": {
     "deco-sites/retale/apps/decohub.ts": $$$$$$$$$$$0,
