@@ -1,4 +1,5 @@
 export interface SectionContent {
+  /** @format template */
   html: string;
 }
 
